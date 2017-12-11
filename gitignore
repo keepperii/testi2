@@ -1,0 +1,17 @@
+*~
+*.swp
+*.iml
+.idea
+dist
+node_modules
+.DS_Store
+npm-debug.log
+.env
+newrelic_agent.log
+.npmrc
+**/.terraform/modules
+**/.terraform/plugins
+test.log
+knexfile.js
+coverage/
+.nyc_output/
