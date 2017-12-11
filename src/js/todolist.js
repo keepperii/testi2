@@ -24,8 +24,7 @@ export default class Todolist extends React.Component {
 		return ( 
 			<div>
 				<h1>Kauppalista</h1>
-					{filter}
-					//<input className = "create" onKeyPress={this.createNew.bind(this)}/>
+					<input className = "create" onKeyPress={this.createNew.bind(this)}/>
 					<input className = "filter" value={filter} onChange={this.filter.bind(this)}/>
 					<ul>{Todolis}</ul>
 			</div>

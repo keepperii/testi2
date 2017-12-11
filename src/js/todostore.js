@@ -9,12 +9,14 @@ class Todostore {
 	//}
 
 
-//var store = window.store = new Todostore
+
 //createTodo(value) {
 ///	this.todos.push(value)
 //}
 
 }
+var store = window.store = new Todostore
+
 export default new store 
 
 //autorun(() => {
