@@ -32,9 +32,3 @@ export default class Todolist extends React.Component {
 	}
 }
 
-//<div>{filter}</div>
-  //<h1>{this.props.store.todos[0]}</h1>
-				//{filter}
-				//<div>{filter}</div>
-				//<input classname = "filter" value={filter} onChange={this.filter.bind(this)
-   
